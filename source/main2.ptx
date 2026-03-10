@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="docinfo.ptx" />
+    <article>
+        <title>142 HOGU Session #1</title>
+        <section>
+        <title>Introduction</title>
+        <p>The 142 textbook is free... refer to sections 1.1, 1.2, 1.3 for this worksheet.</p>
+    </section>
+<!-- ....................................... SECTION 1 ...................................... -->
+<worksheet>
+  <title>Getting Warmed Up and In the Right Mindset...</title>
+  <image width="20%">
+    <shortdescription>
+      This is an image
+    </shortdescription>
+    <latex-image>
+      \begin{tikzpicture}
+        \draw (0,0) rectangle (1,1);
+      \end{tikzpicture}
+    </latex-image>
+  </image>
+    <exercise workspace="1 in">
+      <statement>
+        <p>
+          Explain the meaning of <m>\displaystyle\lim_{x \to 3} f(x) = -2</m>.
+        </p>
+      </statement>
+    </exercise>
+      
+<ol>
+      <li><!-- #2 -->
+        <p>If <m>\displaystyle\lim_{x \to 2} g(x) = 7</m>, then 
+        <m>\displaystyle\lim_{x \to 2^-} g(x)</m> <fillin/>.</p>
+      </li>
+
+      <li><!-- #3 -->
+        <p>If <m>\displaystyle\lim_{x \to 8^-} h(x) = \frac{2}{3}</m> and 
+        <m>\displaystyle\lim_{x \to 8^+} h(x) = -\frac{4}{3}</m>, then 
+        <m>\displaystyle\lim_{x \to 8} h(x)</m> <fillin/>.</p>
+      </li>
+
+      <li><!-- #4 -->
+        <p>If <m>\displaystyle\lim_{x \to -6^-} p(x) = \sqrt{5}</m> and 
+        <m>\displaystyle\lim_{x \to -6^+} p(x) = \sqrt{5}</m>, then 
+        <m>\displaystyle\lim_{x \to -6} p(x)</m> <fillin/>.</p>
+      </li>
+
+      <li><!-- #5 -->
+        <p>If <m>\displaystyle\lim_{x \to 0^-} h(x) = e</m>, what do we know about 
+        <m>\displaystyle\lim_{x \to 0} h(x)</m>?</p>
+      </li>
+    </ol>
+  </worksheet>
+<!-- .............................................SECTION 2................................................. -->
+<section>
+  <title>Let Us Get Our Hands On!</title>
+    <ol>
+      <li><!-- #1 -->
+        <p>Complete the graph below so <m>f(x)</m> has the domain <m>[-8,7]</m>, <m>\displaystyle\lim_{x \rightarrow -4} f(x)=-2</m>, 
+          and <m>\displaystyle\lim_{x \rightarrow 5^-} f(x)=9</m>. </p>
+      </li>
+
+      <li><!-- #2 -->
+        <p>Complete the tables below to estimate  <m>\displaystyle\lim_{t \rightarrow 0} \frac{|t-5|}{t}</m> numerically. 
+          If the limit does not exist, state so and use limit notation to describe any infinite behavior. Round your answers to four decimal places (if necessary).
+        <table>
+          <title>Left-hand limit</title>
+          <tabular halign="center">
+            <row header="yes" bottom="minor" >
+              <cell>Variable <m>t</m></cell>
+              <cell>Variable <m>f(t)</m></cell>
+            </row>
+            <row>
+              <cell><m>-0.1</m></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><m>-0.01</m></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><m>-0.001</m></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><m>-0.0001</m></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+
+        <table>
+          <title>Right-hand limit</title>
+          <tabular halign="center">
+            <row header="yes" bottom="minor" >
+              <cell>Variable <m>t</m></cell>
+              <cell>Variable <m>f(t)</m></cell>
+            </row>
+            <row>
+              <cell><m>-0.1</m></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><m>-0.01</m></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><m>-0.001</m></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><m>-0.0001</m></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+
+
+        </p>
+      </li>
+
+      <li><!-- #3 -->
+        <p> Set up a table to estimate <m>\displaystyle \lim_{x \rightarrow -2} \frac{x^2-x-6}{(x+2)(x+7)}</m> numerically. 
+          When creating your table, show at least three <m>x</m>-values approaching <m>-2</m> from each side and their corresponding function values in the table. 
+          If the limit does not exist, state so and use limit notation to describe any infinite behavior. 
+          Round your answers to four decimal places (if necessary). </p>
+      </li>
+
+      <li><!-- #4 -->
+        <p> Given the graph of <m>f(x)</m> below and <m>g(x)=\frac{10x-30}{x^2-x-6}</m>, find <m>\displaystyle\lim_{x \rightarrow 3} \left( \frac{f(x)+5x}{2}+\sqrt{g(x)+14} \right)</m>. </p>
+      </li>
+
+      <li><!-- #5 -->
+        <p>Given <m>f(x) = \{ 5^{4x-3} \text{ if } x \leq -5, \frac{x^2-x}{x^2+2x} \text{ if } x > -5 \}</m></p>
+      </li>
+
+      <li><!-- #6 -->
+        <p>Find the following limits algebraically. If the limit does not exist, state so and use limit notation to describe any infinite behavior. 
+          Round your answers to four decimal places (if necessary).  </p>
+      </li>
+
+      <li><!-- #7 -->
+        <p>For each graph below, find the indicated limit.  </p>
+      </li>
+
+      <li><!-- #8 -->
+        <p>Jenn is trying to find <m>\displaystyle\lim_{x \rightarrow \infty} f(x)</m> given  <m>f(x) = \frac{12+4x^7+x}{-19x^6+2x^2-5x^7}</m>. </p>
+      </li>
+
+    </ol>
+</section>
+<!-- .............................................SECTION 3................................................... -->
+<section>
+<title>Now...Grades Go Up!</title>
+    <ol>
+      <li><!-- #1 -->
+        <p>The mathematical notation <m>\displaystyle\lim \limits_{x \rightarrow 5} f(x)</m> means <m>\underline{ \qquad\qquad}</m></p>
+        <ol marker="(a)">
+          <li> <p>we need to find the value of the function  at <m>x=5</m>.</p> </li>
+          <li> <p> we need to investigate the <m>y</m>-values of <m>f(x)</m> as <m>x</m> gets very near <m>x=5</m> from both the left and right sides of <m>x=5</m>, 
+            but not necessarily at <m>x=5</m>.</p> </li>
+          <li> <p>we need to find the horizontal asymptotes. </p> </li>
+          <li> <p> we need to find the instantaneous rate of change.</p> </li>
+          <li> <p> we need to investigate the <m>y</m>-values as we approach <m>x=5</m> only on the right side.</p> </li>
+        </ol> 
+      </li>
+
+      <li><!-- #2 -->
+        <p>Find <m>\displaystyle\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}</m>. If the limit does not exist, but has infinite behavior, use limit notation to 
+          describe the infinite behavior of the function as <m>x \longrightarrow 2^-</m>.</p>
+        <ol marker="(a)">
+          <li> <p> <m>\displaystyle {\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}=3</m></p> </li>
+          <li> <p> <m>\displaystyle{\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}=-\infty</m></p> </li>
+          <li> <p> <m>\displaystyle{\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}</m> DNE, 
+            but has infinite behavior that can be described as <m>\displaystyle{\lim_{x \rightarrow 2^-} f(x) \rightarrow -\infty}</m>. </p> </li>
+          <li> <p><m>\displaystyle{\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}</m> DNE, 
+            but has infinite behavior that can be described as <m>\displaystyle{\lim_{x \rightarrow 2^-} f(x) \rightarrow \infty}</m>. </p> </li>
+          <li> <p> <m>\displaystyle {\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}}=0</m> </p> </li>
+        </ol>
+      </li>
+
+      <li><!-- #3 -->
+        <p>Find <m>\displaystyle\lim \limits_{x \rightarrow 7} \frac{x^2-8x+7}{x-7}</m>.</p>
+        <ol marker="(a)">
+          <li> <p> <m>0</m> </p> </li>
+          <li> <p> DNE </p> </li>
+          <li> <p> <m>6</m>  </p> </li>
+          <li> <p> <m>8</m> </p> </li>
+          <li> <p> None of these. </p> </li>
+        </ol>
+      </li>
+
+    </ol>
+The graph of <m>f(x)</m> is not continuous at <m>x=2</m> because .25in0.05mm  I.
+<m>f(2)</m> is not defined.
+II.
+<m>\D{\lim_{x\rightarrow 2} f(x)}</m> does not exist.
+III.
+<m>f(2) \neq \D{\lim_{x\rightarrow 2} f(x)}.</m>
+<ol>
+  <li>
+    <p>
+      I and III only
+    </p>
+  </li>
+
+  <li>
+    <p>
+      III only
+    </p>
+  </li>
+
+  <li>
+    <p>
+      II and III only
+    </p>
+  </li>
+
+  <li>
+    <p>
+      I, II, and III
+    </p>
+  </li>
+
+  <li>
+    <p>
+      II only
+    </p>
+  </li>
+</ol>
+
+</section>
+
+    </article>
+</pretext>
