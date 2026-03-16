@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="docinfo.ptx" />
+    <article><title>HOGU Session #</title>
+      <section><title>Introduction</title>
+        <p>For this HOGU session refer to sections ...</p>
+      </section>
+      <!-- ....................................... SECTION 1 (WARM UP) ...................................... -->
+      <worksheet><title>Getting Warmed Up and In the Right Mindset...</title>
+        <exercise workspace="1 in"><!-- #1 -->
+          <statement>
+            <p>
+               <!--insert problem here-->
+             </p>
+          </statement>
+        </exercise>  
+
+        <exercise workspace="1 in"><!-- #2 -->
+          <statement>
+            <p>
+              <!--insert problem here-->
+            </p>
+          </statement>
+        </exercise> 
+
+        <exercise workspace="1 in"><!-- #3 -->
+          <statement>
+            <p>
+              <!--insert problem here-->
+            </p>
+          </statement>
+        </exercise> 
+       </worksheet>
+      <!-- .............................................SECTION 2................................................. -->
+      <worksheet><title>Let Us Get Our Hands On!</title>
+        <exercise workspace="1 in"><!-- #1 -->
+           <statement>
+            <p>
+              <!--insert problem here-->
+            </p>
+          </statement>
+        </exercise>  
+
+         <exercise workspace="1 in"><!-- #2 -->
+          <statement>
+            <p>
+              <!--insert problem here-->
+            </p>
+           </statement>
+        </exercise> 
+
+        <exercise workspace="1 in"><!-- #3 -->
+           <statement>
+            <p>
+              <!--insert problem here-->
+            </p>
+          </statement>
+         </exercise> 
+      </worksheet>
+      <!-- .............................................SECTION 3................................................... -->
+      <worksheet><title>Now...Grades Go Up!</title>
+        <exercise workspace="1 in"><!-- #1 -->
+          <statement>
+            <p>
+              <!--insert problem here-->
+            </p>
+          </statement>
+        </exercise>  
+
+        <exercise workspace="1 in"><!-- #2 -->
+          <statement>
+            <p>
+              <!--insert problem here-->
+            </p>
+          </statement>
+        </exercise> 
+
+        <exercise workspace="1 in"><!-- #3 -->
+          <statement>
+            <p>
+              <!--insert problem here-->
+            </p>
+          </statement>
+        </exercise> 
+      </worksheet>
+    </article>
+</pretext>
