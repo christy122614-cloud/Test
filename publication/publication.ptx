@@ -113,6 +113,7 @@
   </latex>
 
   <html>
+    <css theme="denver" color-main="#500000"/>
     <!-- A possible attribute for the html tag above is @short-answer-responses, with values either "always" or "graded".  As in: -->
     <!--<html short-answer-responses="always">-->
 

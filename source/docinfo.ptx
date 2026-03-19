@@ -9,7 +9,7 @@
   <!-- A brief description for the book in a catalog; see the links above. The @shelf is used only when publishing to Runestone; see https://runestone.academy/ns/books/index for a list of valid values. You must copy these @shelf names exactly, including capitalization. -->
   <blurb shelf="AP Computer Science"> A simple string (no markup is allowed) to describe your book. </blurb>
 
-
+  <brandlogo source="MLC-Vert Black Text.png" url="https://mlc.tamu.edu/"/>
   <!-- The next three lines are likely for mature projects only: -->
 
   <!-- <brandlogo url="" source="images/cover.png"/> -->
